@@ -21,6 +21,7 @@ class SpringJenkinsApplicationTests {
 		logger.info("Test case executing");
 		logger.info("Test execution success");
 		assertThat(true);
+		logger.info("End");
 	}
 
 }
